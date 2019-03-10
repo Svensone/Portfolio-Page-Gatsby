@@ -1,18 +1,16 @@
-# gatsby-starter-strata
+# Portfolio Page by Sven
 
-**This is a starter for Gatsby.js V2.**
+simple Gatsby Site
 
-**The older V1 version of this starter can be found on the v1 branch**
+## Info
 
-Gatsby starter based on the Strata site template, designed by [HTML5 UP](https://html5up.net/strata). Check out https://codebushi.com/gatsby-starters/ for more Gatsby starters and templates.
+first time using Gatsby - any Feedback appreciated. raw & direct please since feedback is a gift helping me to learn  !
 
-## Preview
 
-http://gatsby-strata.surge.sh/
 
-## Installation
+## About me
+learning to code since Nov 2018 at the beautiful beaches of Indonesia - so a lot of times unavailable since I'm surfing some pretty waves ;)
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new gatsby-starter-strata https://github.com/ChangoMan/gatsby-starter-strata`
 
-Run `gatsby develop` in the terminal to start.
+
+( Design Template by Strada)
