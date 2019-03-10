@@ -23,7 +23,7 @@ const DEFAULT_IMAGES = [
     { id: '1', src: full01, thumbnail: thumb01, caption: 'Shopping App', description: 'simple MERN Stack Shopping App w/ Redux/Reactstrap/transition on heroku', link: 'https://mern-stack-shopping-list-app.herokuapp.com/'},
     { id: '2', src: full02, thumbnail: thumb02, caption: 'Gatsby Blog', description: 'Gatsby App with Blog Component deployed on Netlify', link: 'https://admiring-booth-5a936a.netlify.com'},
     { id: '3', src: full03, thumbnail: thumb03, caption: 'Space-X App', description: 'React App w/ GraphQl displaying all launches of Elon Musks Space-X', link: 'https://space-x-app-sven.herokuapp.com/launch/1'},
-    { id: '4', src: full04, thumbnail: thumb04, caption: 'Photo 4', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
+    { id: '4', src: full04, thumbnail: thumb04, caption: 'Data Visualization w/ d3.js', description: 'visualization of US GDP called with json API', link: 'https://datavisualization-with-d3.herokuapp.com/index.html'},
     { id: '5', src: full05, thumbnail: thumb05, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
     { id: '6', src: full06, thumbnail: thumb06, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'}
 ];
