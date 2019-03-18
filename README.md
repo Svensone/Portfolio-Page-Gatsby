@@ -9,7 +9,7 @@ first time using Gatsby - any Feedback appreciated. raw & direct please since fe
 
 
 ## About me
-learning to code since Nov 2018 at the beautiful beaches of Indonesia - so a lot of times unavailable since I'm surfing some pretty waves ;)
+learning to code since Dez 2018 at the beautiful beaches of Indonesia - so a lot of times unavailable since I'm surfing some pretty waves ;)
 
 
 
