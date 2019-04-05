@@ -4,7 +4,7 @@ simple Gatsby Site
 
 ## Info
 
-first time using Gatsby - any Feedback appreciated. raw & direct please since feedback is a gift helping me to learn  !
+first time using Gatsby - any Feedback appreciated. raw & direct please ! since feedback is a gift helping me to learn quick !
 
 
 

@@ -89,7 +89,7 @@ class HomeIndex extends React.Component {
                         <header className="major">
                             <h2>starting the adventure into tech </h2>
                         </header>
-                        <p> learning to code at the beach - whenever the waves are flat</p>
+                        <p> learning to code at the beach 🌴🥥 - whenever the waves are flat 🌊 </p>
                         <ul className="actions">
                             <li><a href="#" className="button"> More</a></li>
                         </ul>
