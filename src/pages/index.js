@@ -25,7 +25,7 @@ const DEFAULT_IMAGES = [
     { id: '3', src: full03, thumbnail: thumb03, caption: 'Space-X App', description: 'React App w/ GraphQl displaying all launches of Elon Musks Space-X', link: 'https://space-x-app-sven.herokuapp.com/launch/1'},
     { id: '4', src: full04, thumbnail: thumb04, caption: 'Data Visualization w/ d3.js', description: 'visualization of US GDP called with json API', link: 'https://datavisualization-with-d3.herokuapp.com/index.html'},
     { id: '5', src: full05, thumbnail: thumb05, caption: 'Simple Html Homepage', description: 'Coding in Bali - Bootstrap, Html, Sass & some JS Animations', link: 'https://svensone.github.io/'},
-    { id: '6', src: full06, thumbnail: thumb06, caption: 'no content yet', description: 'coming soon!'}
+    { id: '6', src: full06, thumbnail: thumb06, caption: 'Welcome to Bali', description: 'HTML / CSS / JS Site with anime.js and other animations', link: 'https://svenson-bali-homepage.netlify.com/'}
 ];
 
 class HomeIndex extends React.Component {
