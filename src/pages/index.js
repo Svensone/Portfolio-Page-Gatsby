@@ -86,9 +86,10 @@ class HomeIndex extends React.Component {
                 <div id="main">
                     <section id="one">
                         <header className="major">
-                            <h2>from Web-Dev (2017-) to Data Science(2019-)</h2>
+                            <h2>Web-Dev (2017-) and Data Science(2019-)</h2>
                         </header>
-                        <p> Studied Business Administration (Munich) and LLM (London), now Coding in Bali🌴🥥 </p>
+                        <p> Diploma Business Administration (Munich) and LLM (London)<br /> 
+                        now Coding in Bali🌴🥥 </p>
                         <ul className="actions">
                             <li><a href="#" className="button"> More</a></li>
                         </ul>
