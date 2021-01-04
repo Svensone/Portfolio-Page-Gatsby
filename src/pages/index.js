@@ -76,8 +76,7 @@ class HomeIndex extends React.Component {
 
     render() {
         const siteTitle = "Portfolio by Sven"
-        const siteDescription = "Display of my works so far"
-
+        const siteDescription = "Display of my works"
         return (
             <Layout>
                 <Helmet>
@@ -87,9 +86,9 @@ class HomeIndex extends React.Component {
                 <div id="main">
                     <section id="one">
                         <header className="major">
-                            <h2>starting the adventure into tech </h2>
+                            <h2>from Web-Dev (2017-) to Data Science(2019-)</h2>
                         </header>
-                        <p> learning to code at the beach 🌴🥥 - whenever the waves are flat 🌊 </p>
+                        <p> Studied Business Administration (Munich) and LLM (London), now Coding in Bali🌴🥥 </p>
                         <ul className="actions">
                             <li><a href="#" className="button"> More</a></li>
                         </ul>
