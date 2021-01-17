@@ -20,8 +20,8 @@ import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
 
 const DEFAULT_IMAGES = [
-    { id: '1', src: full01, thumbnail: thumb01, caption: 'Shopping App', description: 'simple MERN Stack Shopping App w/ Redux/Reactstrap/transition on heroku', link: 'https://mern-stack-shopping-list-app.herokuapp.com/'},
-    { id: '2', src: full02, thumbnail: thumb02, caption: 'Gatsby Blog', description: 'Gatsby App with Blog Component deployed on Netlify', link: 'https://admiring-booth-5a936a.netlify.com'},
+    { id: '1', src: full01, thumbnail: thumb01, caption: 'Bali Covid Dash App', description: 'Dash App deployed on Heroku : Displaying Regency Data for Bali - made with Python, Plotly, Scrapy', link: 'https://bali-covid-app.herokuapp.com/'},
+    { id: '2', src: full02, thumbnail: thumb02, caption: 'Streamlit App', description: 'Various Projects (classic EDA, ML, Web-Scraping, Data Visualization - made with Python, seaborn, pandas, yfinance', link: 'https://share.streamlit.io/svensone/streamlit_web_app/app.py'},
     { id: '3', src: full03, thumbnail: thumb03, caption: 'Space-X App', description: 'React App w/ GraphQl displaying all launches of Elon Musks Space-X', link: 'https://space-x-app-sven.herokuapp.com/launch/1'},
     { id: '4', src: full04, thumbnail: thumb04, caption: 'Data Visualization w/ d3.js', description: 'visualization of US GDP called with json API', link: 'https://datavisualization-with-d3.herokuapp.com/index.html'},
     { id: '5', src: full05, thumbnail: thumb05, caption: 'Simple Html Homepage', description: 'Coding in Bali - Bootstrap, Html, Sass & some JS Animations', link: 'https://svensone.github.io/'},
