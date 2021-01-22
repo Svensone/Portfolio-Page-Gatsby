@@ -954,12 +954,12 @@
 			margin: (_size(element-margin) * 0.5) 0 0 0;
 
 			a {
-				color: _palette(accent2, border-bg);
+				color: _palette(accent2, 'black');
 			}
 		}
 
 		.copyright {
-			color: _palette(accent2, border-bg);
+			color: _palette(accent2, 'black');
 			font-size: 0.8em;
 			list-style: none;
 			margin: (_size(element-margin) * 0.5) 0 0 0;
