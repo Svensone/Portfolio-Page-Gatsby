@@ -90,9 +90,10 @@ class HomeIndex extends React.Component {
                         </header>
                         <p> Diploma Business Administration (Munich) and LLM (London)<br /> 
                         now Coding in Bali🌴🥥 </p>
-                        <ul className="actions">
+                        {/* Button for More Info - LinkedIn Profile ? */}
+                        {/* <ul className="actions">
                             <li><a href="#" className="button"> More</a></li>
-                        </ul>
+                        </ul> */}
                     </section>
 
                     <section id="two">

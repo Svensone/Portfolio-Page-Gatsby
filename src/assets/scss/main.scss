@@ -943,7 +943,7 @@
 
 		.image.avatar {
 			margin: 0 0 (_size(element-margin) * 0.5) 0;
-			width: 8.25em;
+			width: 10.25em;
 		}
 	}
 
@@ -954,12 +954,12 @@
 			margin: (_size(element-margin) * 0.5) 0 0 0;
 
 			a {
-				color: _palette(accent2, fg-light);
+				color: _palette(accent2, border-bg);
 			}
 		}
 
 		.copyright {
-			color: _palette(accent2, fg-light);
+			color: _palette(accent2, border-bg);
 			font-size: 0.8em;
 			list-style: none;
 			margin: (_size(element-margin) * 0.5) 0 0 0;

@@ -11,11 +11,11 @@ class Header extends React.Component {
           <a href="#" className="image avatar">
             <img src={avatar} alt="" />
           </a>
-          <h1>
+          {/* <h1>
             coding in <br />
             <strong> Bali</strong>
             <br />
-          </h1>
+          </h1> */}
         </div>
         <Footer />
       </header>
