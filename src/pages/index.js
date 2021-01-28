@@ -18,14 +18,18 @@ import full03 from '../assets/images/fulls/03.jpg'
 import full04 from '../assets/images/fulls/04.jpg'
 import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
+import full07 from '../assets/images/fulls/07.jpg'
 
 const DEFAULT_IMAGES = [
     { id: '1', src: full01, thumbnail: thumb01, caption: 'Bali Covid Dash App', description: 'Dash App deployed on Heroku : Displaying Regency Data for Bali - made with Python, Plotly, Scrapy', link: 'https://bali-covid-app.herokuapp.com/'},
-    { id: '2', src: full02, thumbnail: thumb02, caption: 'Streamlit App', description: 'Various Projects (classic EDA, ML, Web-Scraping, Data Visualization - made with Python, seaborn, pandas, yfinance', link: 'https://share.streamlit.io/svensone/streamlit_web_app/app.py'},
-    { id: '3', src: full03, thumbnail: thumb03, caption: 'Space-X App', description: 'React App w/ GraphQl displaying all launches of Elon Musks Space-X', link: 'https://space-x-app-sven.herokuapp.com/launch/1'},
-    { id: '4', src: full04, thumbnail: thumb04, caption: 'Data Visualization w/ d3.js', description: 'visualization of US GDP called with json API', link: 'https://datavisualization-with-d3.herokuapp.com/index.html'},
-    { id: '5', src: full05, thumbnail: thumb05, caption: 'Simple Html Homepage', description: 'Coding in Bali - Bootstrap, Html, Sass & some JS Animations', link: 'https://svensone.github.io/'},
-    { id: '6', src: full06, thumbnail: thumb06, caption: 'Welcome to Bali', description: 'HTML / CSS / JS Site with anime.js and other animations', link: 'https://svenson-bali-homepage.netlify.com/'}
+    { id: '2', src: full07, thumbnail: thumb07, caption: 'fastAI/pytorch ML Image Recognition', 
+    description: 'ResNet34 CNN trained on balinese dance-style images, accuracy 86% - made with fastai, pytorch, Python', link: 'https://share.streamlit.io/svensone/fastai2-bali-dance/main/app.py'},
+
+    { id: '3', src: full02, thumbnail: thumb02, caption: 'Streamlit App', description: 'Various Projects (classic EDA, ML, Web-Scraping, Data Visualization - made with Python, seaborn, pandas, yfinance', link: 'https://share.streamlit.io/svensone/streamlit_web_app/app.py'},
+    { id: '4', src: full03, thumbnail: thumb03, caption: 'Space-X App', description: 'ReactJS-GraphQl App displaying all launches of Elon Musks Space-X', link: 'https://space-x-app-sven.herokuapp.com/launch/1'},
+    { id: '5', src: full04, thumbnail: thumb04, caption: 'Data Visualization w/ d3.js', description: 'visualization of US GDP called with json API', link: 'https://datavisualization-with-d3.herokuapp.com/index.html'},
+    { id: '6', src: full05, thumbnail: thumb05, caption: 'Simple Html Homepage', description: 'Coding in Bali - Bootstrap, Html, Sass & some JS Animations', link: 'https://svensone.github.io/'},
+    { id: '7', src: full06, thumbnail: thumb06, caption: 'Welcome to Bali', description: 'HTML / CSS / JS Site with anime.js and other animations', link: 'https://svenson-bali-homepage.netlify.com/'}
 ];
 
 class HomeIndex extends React.Component {
