@@ -12,7 +12,7 @@ import thumb04 from '../assets/images/thumbs/04.jpg'
 import thumb05 from '../assets/images/thumbs/05.jpg'
 import thumb06 from '../assets/images/thumbs/06.jpg'
 import thumb07 from '../assets/images/thumbs/07.jpg'
-import thumb08 from '../assets/images/thumbs/08.jpg'
+import thumb08 from '../assets/images/thumbs/08_small.jpg'
 
 import full01 from '../assets/images/fulls/04.jpg'
 import full02 from '../assets/images/fulls/02.jpg'
@@ -21,7 +21,7 @@ import full04 from '../assets/images/fulls/04.jpg'
 import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
 import full07 from '../assets/images/fulls/07.jpg'
-import full08 from '../assets/images/fulls/08_small.jpg'
+import full08 from '../assets/images/fulls/08.jpg'
 
 const DEFAULT_IMAGES = [
     { id: '1', src: full01, thumbnail: thumb01, caption: 'Bali Covid Dash App', description: 'Dash App deployed on Heroku : Displaying Regency Data for Bali - made with Python, Plotly, Scrapy', link: 'https://bali-covid-app.herokuapp.com/'},
