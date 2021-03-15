@@ -63,8 +63,9 @@ class Gallery extends Component {
                 <article className="6u 12u$(xsmall) work-item" key={i}>
                     <a
                         className="image fit thumb"
-                        href={obj.src}
-                        onClick={(e) => this.openLightbox(i, e)}
+                        href={obj.link}
+                        target="_blank"
+                        // onClick={(e) => this.openLightbox(i, e)}
                     >
                         <img src={obj.thumbnail} />
                     </a>
