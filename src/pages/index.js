@@ -82,9 +82,9 @@ class HomeIndex extends React.Component {
         });
     }
     handleClickImage () {
-        if (this.state.currentImage === this.props.images.length - 1) return;
+        // if (this.state.currentImage === this.props.images.length - 1) return;
 
-        this.gotoNext();
+        // this.gotoNext();
     }
 
     render() {
