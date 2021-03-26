@@ -26,7 +26,7 @@ import full06 from '../assets/images/fulls/06.jpg'
 import full07 from '../assets/images/fulls/07.jpg'
 import full08 from '../assets/images/fulls/08.jpg'
 import full09 from '../assets/images/fulls/101.jpg'
-import full10 from '../assets/images/fulls/1013.jpg'
+import full10 from '../assets/images/fulls/102.jpg'
 import full11 from '../assets/images/fulls/103.jpg'
 
 // 'https://share.streamlit.io/svensone/fastai2-bali-dance/main/app.py'
