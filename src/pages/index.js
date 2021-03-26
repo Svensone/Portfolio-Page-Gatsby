@@ -13,6 +13,9 @@ import thumb05 from '../assets/images/thumbs/05.jpg'
 import thumb06 from '../assets/images/thumbs/06.jpg'
 import thumb07 from '../assets/images/thumbs/07.jpg'
 import thumb08 from '../assets/images/thumbs/08_small.jpg'
+import thumb09 from '../assets/images/thumbs/101.jpg'
+import thumb10 from '../assets/images/thumbs/102.jpg'
+import thumb11 from '../assets/images/thumbs/103.jpg'
 
 import full01 from '../assets/images/fulls/04.jpg'
 import full02 from '../assets/images/fulls/02.jpg'
@@ -22,18 +25,20 @@ import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
 import full07 from '../assets/images/fulls/07.jpg'
 import full08 from '../assets/images/fulls/08.jpg'
+import full09 from '../assets/images/fulls/101.jpg'
+import full10 from '../assets/images/fulls/1013.jpg'
+import full11 from '../assets/images/fulls/103.jpg'
 
 // 'https://share.streamlit.io/svensone/fastai2-bali-dance/main/app.py'
 
 const DEFAULT_IMAGES = [
     { id: '1', src: full01, thumbnail: thumb01, caption: 'Bali Covid Dash App', description: 'Dash App deployed on Heroku : Displaying Regency Data for Bali - made with Python, Plotly, Scrapy', link: 'https://bali-covid-app.herokuapp.com/'},
-    { id: '2', src: full07, thumbnail: thumb07, caption: 'fastAI/pytorch ML Image Recognition', 
-    description: 'ResNet34 CNN trained on balinese dance-style images, accuracy 86% - made with fastai, pytorch, Python', link: 'http://b3eb0f5587b2.ngrok.io/' },
-    { id: '8', src: full08, thumbnail: thumb08, 
-    caption: 'Computer Vision Medical Pneumonia detection', 
-    description: 'Pneumonia Detectin - Coming Soon', 
-    link: 'coming soon'},
-
+    { id: '2', src: full07, thumbnail: thumb07, caption: 'fastAI/pytorch ML Image Recognition', description: 'ResNet34 CNN trained on balinese dance-style images, accuracy 86% - made with fastai, pytorch, Python', link: 'http://b3eb0f5587b2.ngrok.io/' },
+    { id: '8', src: full08, thumbnail: thumb08, caption: 'Computer Vision Medical Pneumonia detection',     description: 'Pneumonia Detectin - Coming Soon', link: 'coming soon'},
+    { id: '9', src: full09, thumbnail: thumb09, caption: 'Dataset Bali Regency Covid Data', description: 'Dataset creation by scrpy data with python scrapy, processing with Pandas', link: 'https://www.kaggle.com/svensone/covid19-bali-regencies-data'},
+    { id: '10', src: full10, thumbnail: thumb10, caption: 'Garmin Watch Widget', description: 'Garmin Slope Detection App (MonkeyC', link: 'https://github.com/Svensone/Garmin-Slope-App'},
+    { id: '11', src: full11, thumbnail: thumb11, caption: 'coming next', description: 'next project coming soon', link: ''},
+    
     { id: '3', src: full02, thumbnail: thumb02, caption: 'Streamlit App', description: 'Various Projects (classic EDA, ML, Web-Scraping, Data Visualization - made with Python, seaborn, pandas, yfinance', link: 'http://b3eb0f5587b2.ngrok.io/'},
     { id: '4', src: full03, thumbnail: thumb03, caption: 'Space-X App', description: 'ReactJS-GraphQl App displaying all launches of Elon Musks Space-X', link: 'https://space-x-app-sven.herokuapp.com/launch/1'},
     { id: '5', src: full04, thumbnail: thumb04, caption: 'Data Visualization w/ d3.js', description: 'visualization of US GDP called with json API', link: 'https://datavisualization-with-d3.herokuapp.com/index.html'},
