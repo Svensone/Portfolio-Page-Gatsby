@@ -103,9 +103,11 @@ class HomeIndex extends React.Component {
                 <div id="main">
                     <section id="one">
                         <header className="major">
-                            <h2>Web-Dev (2017-) and Data Science(2019-)</h2>
+                            <h2>Frontend Developtment since 2017 </h2>
+                            <h2> Data Science since 2019</h2>
                         </header>
-                        <p> Diploma Business Administration (Munich) and LLM (London)<br /> 
+                        <p> Business Graduate (Technology and Management, Technical University of Munich ) </p>
+                        <p> International Business Law -  LLM ( University of London)<br /> 
                         now Coding in Bali🌴🥥 </p>
                         {/* Button for More Info - LinkedIn Profile ? */}
                         {/* <ul className="actions">
@@ -149,11 +151,10 @@ class HomeIndex extends React.Component {
                                 <ul className="labeled-icons">
                                     <li>
                                         <h3 className="icon fa-home"><span className="label">Address</span></h3>
-                                        82261 Bali <br />
-                                        Indonesia <br />
-                                        / <br />
-                                        80679 Munich <br />
-                                        Germany
+                                        based in : <br/>
+                                        80679 Munich / Germany <br />
+                                        Bali /  Indonesia 
+                                        
                                     </li>
                                     <li>
                                         <h3 className="icon fa-mobile"><span className="label">Phone</span></h3>
