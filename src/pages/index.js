@@ -106,8 +106,8 @@ class HomeIndex extends React.Component {
                             <h2>Frontend Developtment since 2017 </h2>
                             <h2> Data Science since 2019</h2>
                         </header>
-                        <p> Business Graduate (Technology and Management, Technical University of Munich ) </p>
-                        <p> International Business Law -  LLM ( University of London)<br /> 
+                        <p> Business Graduate - Technology and Management ( Technical University of Munich ) </p>
+                        <p> International Business Law - LLM ( University of London)<br /> 
                         now Coding in Bali🌴🥥 </p>
                         {/* Button for More Info - LinkedIn Profile ? */}
                         {/* <ul className="actions">
