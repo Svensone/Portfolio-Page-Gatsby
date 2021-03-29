@@ -110,7 +110,7 @@ class HomeIndex extends React.Component {
                         now Coding in Bali, Indonesia 🌴</p>
                         {/* Button for More Info - LinkedIn Profile ? */}
                         <ul className="actions">
-                            <li><a href="https://www.linkedin.com/in/sven-ertel1/" target="_blank" className="button" > More</a></li>
+                            <li><a href="https://www.linkedin.com/in/sven-ertel1/" target="_blank" className="button" > LInkedIn</a></li>
                         </ul>
                     </section>
 
