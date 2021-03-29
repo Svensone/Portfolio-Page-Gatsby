@@ -32,8 +32,8 @@ import full11 from '../assets/images/fulls/103.jpg'
 // 'https://share.streamlit.io/svensone/fastai2-bali-dance/main/app.py'
 const DEFAULT_IMAGES = [
     { id: '1', src: full01, thumbnail: thumb01, caption: 'Bali Covid Data Collecting & Visualization', description: 'Dash App deployed on Heroku: Displaying Regency Data (scraped from official sources) for Bali - made with Python, Plotly, Scrapy', link: 'https://bali-covid-app.herokuapp.com/'},
-    { id: '2', src: full07, thumbnail: thumb07, caption: 'Image Recognition for Bali Dance Styles', description: 'ResNet34 CNN trained on balinese dance-style images, accuracy 86% - made with fastai, pytorch, Python', link: 'https://share.streamlit.io/svensone/fastai2-bali-dance/main/app.py' },
-    { id: '8', src: full08, thumbnail: thumb08, caption: 'Medical Pneumonia detection',     description: 'Image Recognition on lung x-rays to detect pneumonia, accuracy 72%', link: 'https://share.streamlit.io/svensone/-fastai2-pneumonia-cv/app.py'},
+    { id: '8', src: full08, thumbnail: thumb08, caption: 'Medical Pneumonia detection',     description: 'Image Recognition on lung x-rays to detect pneumonia, accuracy 72% - pytorch/fastAI', link: 'https://share.streamlit.io/svensone/-fastai2-pneumonia-cv/app.py'},
+    { id: '2', src: full07, thumbnail: thumb07, caption: 'Image Recognition for Bali Dance Styles', description: 'ResNet34 CNN trained on balinese dance-style images, accuracy 86% - made with fastai/pytorch, Python', link: 'https://share.streamlit.io/svensone/fastai2-bali-dance/main/app.py' },
     { id: '9', src: full09, thumbnail: thumb09, caption: 'Dataset Bali Regency Covid Data', description: 'Dataset creation by scrpy data with python scrapy, processing with Pandas', link: 'https://www.kaggle.com/svensone/covid19-bali-regencies-data'},
     { id: '10', src: full10, thumbnail: thumb10, caption: 'Garmin Watch Widget', description: 'Garmin Slope Detection App (MonkeyC', link: 'https://github.com/Svensone/Garmin-Slope-App'},
     { id: '11', src: full11, thumbnail: thumb11, caption: 'coming next', description: 'next project coming soon', link: ''},
@@ -102,16 +102,16 @@ class HomeIndex extends React.Component {
                 <div id="main">
                     <section id="one">
                         <header className="major">
+                            <h2>Data Scientist since 2019</h2>
                             <h2>Frontend Developtment since 2017 </h2>
-                            <h2> Data Science since 2019</h2>
                         </header>
-                        <p> Business Graduate - Technology and Management ( Technical University of Munich ) </p>
-                        <p> International Business Law - LLM ( University of London)<br /> 
-                        now Coding in Bali🌴🥥 </p>
+                        <p> Business Graduate - Technology and Management ( Technical University of Munich )<br />
+                        International Business Law - LLM ( University of London)<br /> 
+                        now Coding in Bali, Indonesia 🌴</p>
                         {/* Button for More Info - LinkedIn Profile ? */}
-                        {/* <ul className="actions">
-                            <li><a href="#" className="button"> More</a></li>
-                        </ul> */}
+                        <ul className="actions">
+                            <li><a href="https://www.linkedin.com/in/sven-ertel1/" target="_blank" className="button" > More</a></li>
+                        </ul>
                     </section>
 
                     <section id="two">
@@ -152,7 +152,7 @@ class HomeIndex extends React.Component {
                                         <h3 className="icon fa-home"><span className="label">Address</span></h3>
                                         based in : <br/>
                                         80679 Munich / Germany <br />
-                                        Bali /  Indonesia 
+                                        Bali / Indonesia 
                                         
                                     </li>
                                     <li>
