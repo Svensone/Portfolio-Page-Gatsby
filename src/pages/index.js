@@ -17,6 +17,7 @@ import thumb09 from '../assets/images/thumbs/101.jpg'
 import thumb10 from '../assets/images/thumbs/102.jpg'
 import thumb11 from '../assets/images/thumbs/103.jpg'
 import thumb12 from '../assets/images/thumbs/012.jpg'
+import thumb13 from '../assets/images/thumbs/013.jpg'
 
 import full01 from '../assets/images/fulls/04.jpg'
 import full02 from '../assets/images/fulls/02.jpg'
@@ -38,10 +39,14 @@ const DEFAULT_IMAGES = [
     { id: '2', src: full07, thumbnail: thumb07, 
     caption: 'fastai Image Recognition on own-created Bali Dance Styles Image Dataset', 
     description: 'ResNet34 CNN trained on balinese dance-style images (500 images), accuracy 86% - made with fastai/pytorch, Python', link: 'https://share.streamlit.io/svensone/fastai2-bali-dance/main/app.py' },
-    { id: '12', src: full06, thumbnail: thumb12, 
-    caption: 'Tensorflow CV DICOM Skin Melanoma Detection',
-    description: 'Computer Vision with Scikit-learn and tensorflow framework, accuracy 74%, Dataset 33.000 DICOM Images', 
+    { id: '12', src: full06, thumbnail: thumb13, 
+    caption: 'Tensorflow Computer Vision',
+    description: 'Detection Coivd Pneumonis in lung x-rays with Scikit-learn and tensorflow framework', 
     link: 'https://www.kaggle.com/svensone/tf-covid19-comp-vision-x-ray/output'},
+    { id: '13', src: full06, thumbnail: thumb12, 
+    caption: 'pytorch CNN on DICOM-Images for Skin Melanoma Detection',
+    description: ' Dataset 33.000 DICOM Images, pytorch, fastai, scikit-learn', 
+    link: 'https://share.streamlit.io/svensone/fastai-melanoma-cv/main/app.py'},
     { id: '9', src: full09, thumbnail: thumb09, 
     caption: 'Dataset Creation daily Covid-Data on sub_regency level', 
     description: 'Dataset created with python scrapy, processing with Pandas', link: 'https://www.kaggle.com/svensone/covid19-bali-regencies-data'},
