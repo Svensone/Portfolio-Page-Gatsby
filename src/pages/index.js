@@ -44,7 +44,7 @@ const DEFAULT_IMAGES = [
     description: 'Detection Coivd Pneumonis in lung x-rays with Scikit-learn and tensorflow framework', 
     link: 'https://www.kaggle.com/svensone/tf-covid19-comp-vision-x-ray/output'},
     { id: '13', src: full06, thumbnail: thumb12, 
-    caption: 'pytorch CNN on DICOM-Images for Skin Melanoma Detection',
+    caption: 'pytorch Conv. NN on DICOM-Images for Skin Melanoma Detection',
     description: ' Dataset 33.000 DICOM Images, pytorch, fastai, scikit-learn', 
     link: 'https://share.streamlit.io/svensone/fastai-melanoma-cv/main/app.py'},
     { id: '9', src: full09, thumbnail: thumb09, 
@@ -57,10 +57,6 @@ const DEFAULT_IMAGES = [
     { id: '5', src: full04, thumbnail: thumb04, caption: 'Data Visualization with Javascript and D3', description: 'Animated visualization of US GDP - REST API, Javascript, D3', link: 'https://datavisualization-with-d3.herokuapp.com/index.html'},
     { id: '6', src: full05, thumbnail: thumb05, caption: 'Simple Classic Html Homepage', description: 'made with Bootstrap, Html, Sass & some JS Animations', link: 'https://svensone.github.io/'},
     { id: '7', src: full06, thumbnail: thumb06, caption: 'Welcome to Bali', description: 'HTML / CSS / JS Site with anime.js and other animations', link: 'https://svenson-bali-homepage.netlify.com/'},
-    { id: '12', src: full06, thumbnail: thumb12, 
-    caption: 'Tensorflow CV DICOM Skin Melanoma Detection',
-    description: 'Computer Vision with Scikit-learn and tensorflow framework, accuracy 74%, Dataset 33.000 DICOM Images', 
-    link: 'https://www.kaggle.com/svensone/tf-covid19-comp-vision-x-ray/output'},
 
 ];
 
