@@ -59,6 +59,8 @@ const DEFAULT_IMAGES = [
     { id: '7', src: full06, thumbnail: thumb06, caption: 'Welcome to Bali', description: 'HTML / CSS / JS Site with anime.js and other animations', link: 'https://svenson-bali-homepage.netlify.com/'},
 
 ];
+// for text 
+const B = (props) => <Text style={{fontWeight: 'bold'}}>{props.children}</Text>
 
 class HomeIndex extends React.Component {
 
@@ -105,7 +107,6 @@ class HomeIndex extends React.Component {
 
         // this.gotoNext();
     }
-
     render() {
         const siteTitle = "Portfolio by Sven"
         const siteDescription = "Display of my works"
@@ -118,13 +119,31 @@ class HomeIndex extends React.Component {
                 <div id="main">
                     <section id="one">
                         <header className="major">
-                            <h2>Data Scientist since 2019</h2>
+
+                        <h2>About me</h2>
+                        </header>
+                        <p> Hi, my name is Sven and I work as a <B>Data Scientist</B> <br />
+                        After my <B>MBA</B> studies in Technology and Management at TU Munich <br />
+                        I have extended my knowledge in <B>international business law </B> at Univerity of London (LLM) <br />
+                        Before I started as a <B>Frontend Web Developer</B> in 2017, I gathered valuable experience at <B>Lufthansa</B> by <br />
+                        Implementing Lean-Management projects.
+                        <B>Main work</B>: 
+                        - <B>Data Analytics</B> - gathering, cleaning, processing and visualizing data with Python Pandas, Scrapy, Seaborn and Statsmodels <br/>
+                        - Machine Learning - <B>Computer Vision</B> and <B>NLP</B> with TensorFlow and Pytorch / fastAI
+                        - <B>Business Intelligence</B> - Tableau
+                        <br />
+                        <B>bold</B>
+                        Since the  <B>ocean and surfing</B> are a great passion for me, I spent a lot of time in Indonesia,<br /> 
+                        where I also help at a local orphanage. <br />
+                        I also enjoy cooking and all things sports & fitness related.    
+                        </p>
+                            {/* <h2>Data Scientist since 2019</h2>
                             <h2>Frontend Developtment since 2017 </h2>
                         </header>
                         <p> Business Graduate - Technology and Management ( Technical University of Munich )<br />
                         International Business Law - LLM ( University of London)<br /> 
                         now Coding in Bali, Indonesia 🌴</p>
-                        {/* Button for More Info - LinkedIn Profile ? */}
+                        Button for More Info - LinkedIn Profile ? */}
                         <ul className="actions">
                             <li><a href="https://www.linkedin.com/in/sven-ertel1/" target="_blank" className="button" > LinkedIn</a></li>
                         </ul>
