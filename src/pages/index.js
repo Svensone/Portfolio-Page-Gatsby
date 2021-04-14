@@ -128,19 +128,17 @@ class HomeIndex extends React.Component {
 
                         <h2>About me</h2>
                         </header>
-                        <p> Hi, my name is Sven and I work as a <strong>Data Scientist</strong> <br />
-                        After my <strong>MBA</strong> studies in Technology and Management at TU Munich <br />
-                        I have extended my knowledge in <strong>International Business Law</strong> at Univerity of London (LLM) <br />
-                        Before I started as a <strong>Frontend Web-Developer</strong> in 2017, I gathered valuable experience at <strong>Lufthans</strong> by <br />
-                        Implementing Lean-Management projects.
+                        <p> Hi, my name is Sven and I work as a <strong>Data Scientist</strong>. After my <strong>MBA</strong> studies in <br />
+                        Technology and Management at TU Munich. I have extended my knowledge in <strong>International Business Law</strong> <br />
+                        at Univerity of London (LLM). Before I started as a <strong>Frontend Web-Developer</strong> in 2017, I gathered <br />
+                        valuable experience at <strong>Lufthans</strong> by Implementing Lean-Management projects.<br />
                         <strong>Main work</strong>: 
-                        - <strong>Data Analytics</strong> - gathering, cleaning, processing and visualizing data with Python Pandas, Scrapy, Seaborn and Statsmodels <br/>
+                        - <strong>Data Analytics</strong> - gathering, cleaning, processing and visualizing data with Python Pandas, Scrapy, Seaborn<br/>
                         - Machine Learning - <strong>Computer Vision</strong> and <strong>NLP</strong> with TensorFlow and Pytorch / fastAI
                         - <strong>Business Intelligence</strong> - Tableau
                         <br />
                         Since the  <strong>ocean</strong> and <strong>surfing</strong>are a great passion for me, I spent a lot of time in Indonesia,<br /> 
-                        where I also help at a local <strong>orphanage</strong>. <br />
-                        I also enjoy cooking and all things sports & fitness related.    
+                        where I also help at a local <strong>orphanage</strong>. I also enjoy cooking and all things sports & fitness related.    
                         </p>
                             {/* <h2>Data Scientist since 2019</h2>
                             <h2>Frontend Developtment since 2017 </h2>
