@@ -50,17 +50,23 @@ const DEFAULT_IMAGES = [
     { id: '9', src: full09, thumbnail: thumb09, 
     caption: 'Dataset Creation daily Covid-Data on sub_regency level', 
     description: 'Dataset created with python scrapy, processing with Pandas', link: 'https://www.kaggle.com/svensone/covid19-bali-regencies-data'},
-    { id: '10', src: full10, thumbnail: thumb10, caption: 'Garmin Watch Widget', description: 'Garmin Slope Detection App (MonkeyC', link: 'https://github.com/Svensone/Garmin-Slope-App'},
-    { id: '11', src: full11, thumbnail: thumb11, caption: 'coming next', description: 'next project coming soon', link: ''},
-    { id: '3', src: full02, thumbnail: thumb02, caption: 'Various Data Visualization', description: 'classic EDA of DNA Data, AI Image recognition, and Stock Data Visualization- made with Python, seaborn, pandas, yfinance', link: 'http://b3eb0f5587b2.ngrok.io/'},
-    { id: '4', src: full03, thumbnail: thumb03, caption: 'Space-X App', description: 'ReactJS-GraphQl App displaying all launches of Elon Musks Space-X', link: 'https://space-x-app-sven.herokuapp.com/launch/1'},
-    { id: '5', src: full04, thumbnail: thumb04, caption: 'Data Visualization with Javascript and D3', description: 'Animated visualization of US GDP - REST API, Javascript, D3', link: 'https://datavisualization-with-d3.herokuapp.com/index.html'},
-    { id: '6', src: full05, thumbnail: thumb05, caption: 'Simple Classic Html Homepage', description: 'made with Bootstrap, Html, Sass & some JS Animations', link: 'https://svensone.github.io/'},
-    { id: '7', src: full06, thumbnail: thumb06, caption: 'Welcome to Bali', description: 'HTML / CSS / JS Site with anime.js and other animations', link: 'https://svenson-bali-homepage.netlify.com/'},
-
+    { id: '10', src: full10, thumbnail: thumb10, caption: 'Garmin Watch Widget', 
+    description: 'Garmin Slope Detection App (MonkeyC', link: 'https://github.com/Svensone/Garmin-Slope-App'},
+    { id: '11', src: full11, thumbnail: thumb11, caption: 'coming next',
+    description: 'next project coming soon', link: ''},
+    { id: '3', src: full02, thumbnail: thumb02, caption: 'Various Data Visualization', 
+    description: 'classic EDA of DNA Data, AI Image recognition, and Stock Data Visualization- made with Python, seaborn, pandas, yfinance', link: 'http://b3eb0f5587b2.ngrok.io/'},
+    { id: '4', src: full03, thumbnail: thumb03, caption: 'Space-X App', 
+    description: 'ReactJS-GraphQl App displaying all launches of Elon Musks Space-X', link: 'https://space-x-app-sven.herokuapp.com/launch/1'},
+    { id: '5', src: full04, thumbnail: thumb04, caption: 'Data Visualization with Javascript and D3', 
+    description: 'Animated visualization of US GDP - REST API, Javascript, D3', link: 'https://datavisualization-with-d3.herokuapp.com/index.html'},
+    { id: '6', src: full05, thumbnail: thumb05, caption: 'Simple Classic Html Homepage', 
+    description: 'made with Bootstrap, Html, Sass & some JS Animations', link: 'https://svensone.github.io/'},
+    { id: '7', src: full06, thumbnail: thumb06, caption: 'Welcome to Bali', 
+    description: 'HTML / CSS / JS Site with anime.js and other animations', link: 'https://svenson-bali-homepage.netlify.com/'},
 ];
 // for text 
-const B = (props) => <Text style={{fontWeight: 'bold'}}>{props.children}</Text>
+const B = (props) => <p style={{fontWeight: 'bold'}}>{props.children}</p>
 
 class HomeIndex extends React.Component {
 
