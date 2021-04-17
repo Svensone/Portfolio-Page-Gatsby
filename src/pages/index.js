@@ -34,24 +34,26 @@ import full11 from '../assets/images/fulls/103.jpg'
 
 // 'https://share.streamlit.io/svensone/fastai2-bali-dance/main/app.py'
 const DEFAULT_IMAGES = [
-    { id: '1', src: full01, thumbnail: thumb01, caption: 'Bali Covid Data Dashboard - Plotly/Python', description: 'Collecting Covid data from official sources, Dashboard Visualization with PlotlyDash App deployed on Heroku: Displaying Regency Data (scraped from official sources) for Bali - made with Plotly, Scrapy, Python, Pandas, ', link: 'https://bali-covid-app.herokuapp.com/'},
+    { id: '1', src: full01, thumbnail: thumb01, 
+    caption: 'Bali Covid Data Dashboard - Plotly/Python', 
+    description: 'Collecting daily COVID-data from official sources, Dashboard Visualization with Plotly-Dash App deployed on Heroku: Displaying Regency Data for Bali with interactive comparison with other countries and indonesia provinces- made with Plotly, Scrapy, Python, Pandas, ', link: 'https://bali-covid-app.herokuapp.com/'},
     { id: '8', src: full08, thumbnail: thumb08, caption: 'Pytorch/fastai Comp. Vision Pneumonia detection',     description: 'Image Recognition on lung x-rays to detect pneumonia, accuracy 72% - pytorch/fastAI', link: 'https://share.streamlit.io/svensone/-fastai2-pneumonia-cv/app.py'},
     { id: '2', src: full07, thumbnail: thumb07, 
-    caption: 'fastai Image Recognition on own-created Bali Dance Styles Image Dataset', 
+    caption: 'fastai Balinese-Dance-Styles Recognition, scraped and cleaned Image-Dataset', 
     description: 'ResNet34 CNN trained on balinese dance-style images (500 images), accuracy 86% - made with fastai/pytorch, Python', link: 'https://share.streamlit.io/svensone/fastai2-bali-dance/main/app.py' },
     { id: '12', src: full06, thumbnail: thumb13, 
     caption: 'Tensorflow Computer Vision',
-    description: 'Detection Coivd Pneumonis in lung x-rays with Scikit-learn and tensorflow framework', 
+    description: 'Detection of Pneumonia caused by COVID, with Scikit-learn and TensorFlow', 
     link: 'https://www.kaggle.com/svensone/tf-covid19-comp-vision-x-ray/output'},
     { id: '13', src: full06, thumbnail: thumb12, 
-    caption: 'Pytorch CNNN on DICOM-Images for Skin Melanoma Detection',
+    caption: 'Pytorch CNN on DICOM-Images for Skin Melanoma Detection',
     description: ' Dataset 33.000 DICOM Images, pytorch, fastai, scikit-learn', 
     link: 'https://github.com/Svensone/kaggle/blob/main/Competitions/06_04_21_%5Bfastaiv2%5D_DICOM_Melanoma_Ver_5.ipynb'},
     { id: '9', src: full09, thumbnail: thumb09, 
-    caption: 'Dataset Creation daily Covid-Data on sub_regency level', 
+    caption: 'Dataset Creation for daily Covid-Data in Bali on sub_regency level', 
     description: 'Dataset created with python scrapy, processing with Pandas', link: 'https://www.kaggle.com/svensone/covid19-bali-regencies-data'},
     { id: '10', src: full10, thumbnail: thumb10, caption: 'Garmin Watch Widget', 
-    description: 'Garmin Slope Detection App (MonkeyC', link: 'https://github.com/Svensone/Garmin-Slope-App'},
+    description: 'Garmin Slope Detection App (MonkeyC)', link: 'https://github.com/Svensone/Garmin-Slope-App'},
     { id: '11', src: full11, thumbnail: thumb11, caption: 'coming next',
     description: 'next project coming soon', link: ''},
     { id: '3', src: full02, thumbnail: thumb02, caption: 'Various Data Visualization', 
@@ -65,8 +67,6 @@ const DEFAULT_IMAGES = [
     { id: '7', src: full06, thumbnail: thumb06, caption: 'Welcome to Bali', 
     description: 'HTML / CSS / JS Site with anime.js and other animations', link: 'https://svenson-bali-homepage.netlify.com/'},
 ];
-// for text 
-// const B = (props) => <p style={{fontWeight: 'bold'}}>{props.children}</p>
 
 class HomeIndex extends React.Component {
 
@@ -129,23 +129,19 @@ class HomeIndex extends React.Component {
                         <h2>About me</h2>
                         </header>
                         <p> Hi, my name is Sven and I work as a <strong>Data Scientist</strong>. After my <strong>MBA</strong> studies in
-                        Technology and Management at TU Munich. I have extended my knowledge in <strong>International Business Law</strong>
+                        Technology and Management at TU Munich, I have extended my knowledge in <strong>International Business Law</strong>
                         at Univerity of London (LLM). Before I started as a <strong>Frontend Web-Developer</strong> in 2017, I gathered
-                        valuable experience at <strong>Lufthans</strong> by Implementing Lean-Management projects.<br />
+                        valuable experience at <strong>Lufthansa</strong> by implementing Lean-Management projects.<br />
                         <strong>Main work</strong>: <br />
-                        - <strong>Data Analytics</strong> - gathering, cleaning, processing and visualizing data with Python Pandas, Scrapy, Seaborn<br/>
-                        - Machine Learning - <strong>Computer Vision</strong> and <strong>NLP</strong> with TensorFlow and Pytorch / fastAI<br />
-                        - <strong>Business Intelligence</strong> - Tableau <br />
-                        Since the  <strong>ocean</strong> and <strong>surfing</strong>are a great passion for me, I spent a lot of time in Indonesia, 
+                        - <strong>Data Analytics:</strong> <br />
+                        gathering, cleaning, processing and visualizing data with Python Pandas, Numpy, Scrapy, Seaborn, Matplotlib<br/>
+                        - Machine Learning: <strong><br />
+                        Computer Vision</strong> and <strong>NLP</strong> with TensorFlow and Pytorch / fastAI<br />
+                        - <strong>Business Intelligence:</strong><br />
+                        -Tableau, Excel, Dash/Plotly <br />
+                        Since the  <strong>ocean</strong> and <strong>surfing</strong> are a great passion for me, I spent a lot of time in Indonesia 🌴, 
                         where I also help at a local <strong>orphanage</strong>. I also enjoy cooking and all things sports & fitness related.    
                         </p>
-                            {/* <h2>Data Scientist since 2019</h2>
-                            <h2>Frontend Developtment since 2017 </h2>
-                        </header>
-                        <p> Business Graduate - Technology and Management ( Technical University of Munich )<br />
-                        International Business Law - LLM ( University of London)<br /> 
-                        now Coding in Bali, Indonesia 🌴</p>
-                        Button for More Info - LinkedIn Profile ? */}
                         <ul className="actions">
                             <li><a href="https://www.linkedin.com/in/sven-ertel1/" target="_blank" className="button" > LinkedIn</a></li>
                         </ul>
