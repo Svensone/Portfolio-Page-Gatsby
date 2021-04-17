@@ -1,5 +1,10 @@
 # Portfolio Page by Sven
-simple Gatsby Site
+
+Portfolio Page with most recent projects in Data Science and Frontend Web Development.
+
+
+## Tech-Stack:
+Gatsby Site in JavaScript 
 
 ## Info
 

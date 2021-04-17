@@ -133,13 +133,13 @@ class HomeIndex extends React.Component {
                         at Univerity of London (LLM). Before I started as a <strong>Frontend Web-Developer</strong> in 2016, I gathered
                         valuable experience at <strong>Lufthansa</strong> by implementing Lean-Management projects.<br />
                         <strong>Main work</strong>: <br />
-                        - <strong>Data Analytics:</strong> <br />
+                        o <strong>Data Analytics:</strong> <br />
                         gathering, cleaning, processing and visualizing data with Python Pandas, Numpy, Scrapy, Seaborn, Matplotlib<br/>
-                        - Machine Learning: <strong><br />
-                        Computer Vision</strong> and <strong>NLP</strong> with TensorFlow and Pytorch / fastAI<br />
-                        - <strong>Business Intelligence:</strong><br />
+                        o <strong>Machine Learning:</strong> <br />
+                        <strong>Computer Vision</strong> and <strong>NLP</strong> with TensorFlow and Pytorch / fastAI<br />
+                        o<strong> Business Intelligence:</strong><br />
                         -Tableau, Excel, Dash/Plotly <br />
-                        - MySQL and MongoDb are my choice of DBMS
+                        - MySQL and MongoDb are my choice of DBMS<br />
                         Since the  <strong>ocean</strong> and <strong>surfing</strong> are a great passion for me, I spent a lot of time in Indonesia 🌴, 
                         where I also help at a local <strong>orphanage</strong>. I also enjoy cooking and all things sports and fitness related.    
                         </p>
