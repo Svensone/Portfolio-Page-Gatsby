@@ -129,7 +129,7 @@ class HomeIndex extends React.Component {
                         <h2>About me</h2>
                         </header>
                         <p> Hi, my name is Sven and I work as a <strong>Data Scientist</strong>. After my <strong>MBA</strong> studies in
-                        Technology and Management at TU Munich, I have extended my knowledge in <strong>International Business Law</strong>
+                        Technology and Management at TU Munich, I have extended my knowledge in <strong>International Business Law</strong> 
                         at Univerity of London (LLM). Before I started as a <strong>Frontend Web-Developer</strong> in 2016, I gathered
                         valuable experience at <strong>Lufthansa</strong> by implementing Lean-Management projects.<br />
                         <strong>Main work</strong>: <br />
@@ -138,10 +138,10 @@ class HomeIndex extends React.Component {
                         o <strong>Machine Learning:</strong> <br />
                         <strong>Computer Vision</strong> and <strong>NLP</strong> with TensorFlow and Pytorch / fastAI<br />
                         o<strong> Business Intelligence:</strong><br />
-                        -Tableau, Excel, Dash/Plotly <br />
+                        - Tableau, Excel, Dash/Plotly <br />
                         - MySQL and MongoDb are my choice of DBMS<br />
-                        Since the  <strong>ocean</strong> and <strong>surfing</strong> are a great passion for me, I spent a lot of time in Indonesia 🌴, 
-                        where I also help at a local <strong>orphanage</strong>. I also enjoy cooking and all things sports and fitness related.    
+                        Since the  <strong>ocean</strong> and <strong>surfing</strong> are a great passion for me, I spent a lot of time in Indonesia, 
+                        where I also help at a local <strong>orphanage</strong>. I enjoy cooking and all things sports and fitness related.    
                         </p>
                         <ul className="actions">
                             <li><a href="https://www.linkedin.com/in/sven-ertel1/" target="_blank" className="button" > LinkedIn</a></li>
