@@ -128,18 +128,23 @@ class HomeIndex extends React.Component {
 
                         <h2>About me</h2>
                         </header>
-                        <p> Hi, my name is Sven and I work as a <strong>Data Scientist</strong>. After my <strong>MBA</strong> studies in
+                        <p> Hi, my name is Sven and I work as a <strong>Data Scientist</strong>. After my <strong>MBA</strong> in
                         Technology and Management at TU Munich, I have extended my knowledge in <strong>International Business Law</strong> 
-                        at Univerity of London (LLM). Before I started as a <strong>Frontend Web-Developer</strong> in 2016, I gathered
-                        valuable experience at <strong>Lufthansa</strong> by implementing Lean-Management projects.<br />
+                        at University of London (LLM). My endeavors into Tech started with learning and applying the <strong>Frontend 
+                        Web-Development tech-stack Html, Css, JavaScript and modern Frameworks such as React, Gatsby, 
+                        GraphQL</strong> in 2016.  Previously I was able to collect valuable professional experience at <strong>Lufthansa</strong>
+                        by managing the implementation of various process-optimization projects in the maintenance department.<br />
+
                         <strong>Main work</strong>: <br />
                         o <strong>Data Analytics:</strong> <br />
                         gathering, cleaning, processing and visualizing data with Python Pandas, Numpy, Scrapy, Seaborn, Matplotlib<br/>
                         o <strong>Machine Learning:</strong> <br />
                         <strong>Computer Vision</strong> and <strong>NLP</strong> with TensorFlow and Pytorch / fastAI<br />
                         o<strong> Business Intelligence:</strong><br />
-                        - Tableau, Excel, Dash/Plotly <br />
-                        - MySQL and MongoDb are my choice of DBMS<br />
+                        Tableau, Excel, Dash/Plotly <br />
+
+                        MySQL and MongoDb are my choice of DBMS<br />
+                        
                         Since the  <strong>ocean</strong> and <strong>surfing</strong> are a great passion for me, I spent a lot of time in Indonesia, 
                         where I also help at a local <strong>orphanage</strong>. I enjoy cooking and all things sports and fitness related.    
                         </p>
