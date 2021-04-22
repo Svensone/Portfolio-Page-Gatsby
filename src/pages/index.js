@@ -129,10 +129,10 @@ class HomeIndex extends React.Component {
                         <h2>About me</h2>
                         </header>
                         <p> Hi, my name is Sven and I work as a <strong>Data Scientist</strong>. After my <strong>MBA</strong> in
-                        Technology and Management at TU Munich, I have extended my knowledge in <strong>International Business Law</strong> 
+                        Technology and Management at TU Munich, I have extended my knowledge in <strong>International Business Law </strong> 
                         at University of London (LLM). My endeavors into Tech started with learning and applying the <strong>Frontend 
-                        Web-Development tech-stack Html, Css, JavaScript and modern Frameworks such as React, Gatsby, 
-                        GraphQL</strong> in 2016.  Previously I was able to collect valuable professional experience at <strong>Lufthansa</strong>
+                        Web-Development</strong> tech-stack Html, Css, JavaScript and modern Frameworks such as React, Gatsby, 
+                        GraphQL in 2016.  Previously I was able to collect valuable professional experience at <strong>Lufthansa </strong>
                         by managing the implementation of various process-optimization projects in the maintenance department.<br />
 
                         <strong>Main work</strong>: <br />
@@ -144,9 +144,11 @@ class HomeIndex extends React.Component {
                         Tableau, Excel, Dash/Plotly <br />
 
                         MySQL and MongoDb are my choice of DBMS<br />
-                        
-                        Since the  <strong>ocean</strong> and <strong>surfing</strong> are a great passion for me, I spent a lot of time in Indonesia, 
-                        where I also help at a local <strong>orphanage</strong>. I enjoy cooking and all things sports and fitness related.    
+
+                        The  <strong>ocean</strong> is my great passion. 
+                        Sailing between Greece islands, apnoe diving in Gili Islands or surfing - I love to be in, around and close to the ocean.  
+                        Helping others at a local <strong>orphanage</strong> or organizing beach-clean-up with ByeByePlasticBags Bali and all things sports-related
+                        fill up my spare-time when I'm not coding.    
                         </p>
                         <ul className="actions">
                             <li><a href="https://www.linkedin.com/in/sven-ertel1/" target="_blank" className="button" > LinkedIn</a></li>
