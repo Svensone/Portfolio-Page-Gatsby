@@ -2,6 +2,8 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
+import Footer from './Footer'
+
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
 
@@ -130,11 +132,10 @@ class HomeIndex extends React.Component {
                         </header>
                         <p> Hi, my name is Sven and I work as a <strong>Data Scientist</strong>. After my <strong>MBA</strong> in
                         Technology and Management at TU Munich, I have extended my knowledge in <strong>International Business Law </strong> 
-                        at University of London (LLM). My endeavors into Tech started with learning and applying the <strong>Frontend 
+                        at University of London (LLM). My endeavors into Tech started in 2017 with learning and applying the classical <strong>Frontend 
                         Web-Development</strong> tech-stack Html, Css, JavaScript and modern Frameworks such as React, Gatsby, 
-                        GraphQL in 2016.  Previously I was able to collect valuable professional experience at <strong>Lufthansa </strong>
-                        by managing the implementation of various process-optimization projects in the maintenance department.<br />
-
+                        GraphQL in 2016.  Previously I was able to collect valuable professional experience at <strong>Lufthansa</strong>.<br /></p>
+                        <p>
                         <strong>Main work</strong>: <br />
                         o <strong>Data Analytics:</strong> <br />
                         gathering, cleaning, processing and visualizing data with Python Pandas, Numpy, Scrapy, Seaborn, Matplotlib<br/>
@@ -142,14 +143,15 @@ class HomeIndex extends React.Component {
                         <strong>Computer Vision</strong> and <strong>NLP</strong> with TensorFlow and Pytorch / fastAI<br />
                         o<strong> Business Intelligence:</strong><br />
                         Tableau, Excel, Dash/Plotly <br />
-
                         MySQL and MongoDb are my choice of DBMS<br />
-
-                        The  <strong>ocean</strong> is my great passion. 
-                        Sailing between Greece islands, apnoe diving in Gili Islands or surfing - I love to be in, around and close to the ocean.  
-                        Helping others at a local <strong>orphanage</strong> or organizing beach-clean-up with ByeByePlasticBags Bali and all things sports-related
-                        fill up my spare-time when I'm not coding.    
                         </p>
+                        <p>
+                        The  <strong>ocean</strong> is my great passion. 
+                        Sailing between Greece islands, apnoe diving on Gili Islands, Indonesia or surfing waves - I love to be in, around and close to the ocean.  
+                        Helping others at a local <strong>orphanage</strong> or organizing beach-clean-up with ByeByePlasticBags Bali and all things sports-related
+                        fill up my spare-time when I'm not coding.  
+                        </p>
+
                         <ul className="actions">
                             <li><a href="https://www.linkedin.com/in/sven-ertel1/" target="_blank" className="button" > LinkedIn</a></li>
                         </ul>
@@ -192,9 +194,7 @@ class HomeIndex extends React.Component {
                                     <li>
                                         <h3 className="icon fa-home"><span className="label">Address</span></h3>
                                         based in : <br/>
-                                        80679 Munich / Germany <br />
-                                        Bali / Indonesia 
-                                        
+                                        80679 Munich, Germany <br />
                                     </li>
                                     <li>
                                         <h3 className="icon fa-mobile"><span className="label">Phone</span></h3>
@@ -204,6 +204,11 @@ class HomeIndex extends React.Component {
                                         <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
                                         <a href="#">svenson.ertel@gmail.com</a>
                                     </li>
+                                    <li>
+                                        <Footer />
+                                    </li>
+
+
                                 </ul>
                             </div>
                         </div>
