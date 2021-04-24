@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
-import Footer from './Footer'
+import Footer from '../components/Footer'
 
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
