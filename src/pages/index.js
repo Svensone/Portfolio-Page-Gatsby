@@ -198,20 +198,17 @@ class HomeIndex extends React.Component {
                                     </li>
                                     <li>
                                         <h3 className="icon fa-mobile"><span className="label">Phone</span></h3>
-                                        -
                                     </li>
                                     <li>
                                         <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
                                         <a href="#">svenson.ertel@gmail.com</a>
                                     </li>
                                     <li>
-                                        <Footer />
                                     </li>
-
-
                                 </ul>
                             </div>
                         </div>
+                        <Footer />
                     </section>
                 </div>
             </Layout>
