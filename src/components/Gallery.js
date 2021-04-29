@@ -55,7 +55,6 @@ class Gallery extends Component {
     
     renderGallery () {
         const { images } = this.props;
-
         if (!images) return;
 
         const gallery = images.map((obj, i) => {

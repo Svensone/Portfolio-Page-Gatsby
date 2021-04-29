@@ -42,7 +42,8 @@ const DEFAULT_IMAGES = [
     { id: '8', src: full08, thumbnail: thumb08, caption: 'Pytorch/fastai Comp. Vision Pneumonia detection',     description: 'Image Recognition on lung x-rays to detect pneumonia, accuracy 72% - pytorch/fastAI', link: 'https://share.streamlit.io/svensone/-fastai2-pneumonia-cv/app.py'},
     { id: '2', src: full07, thumbnail: thumb07, 
     caption: 'fastai Balinese-Dance-Styles Recognition, scraped and cleaned Image-Dataset', 
-    description: 'ResNet34 CNN trained on balinese dance-style images (500 images), accuracy 86% - made with fastai/pytorch, Python', link: 'https://share.streamlit.io/svensone/fastai2-bali-dance/main/app.py' },
+    description: 'ResNet34 CNN trained on balinese dance-style images (500 images), accuracy 86% - made with fastai/pytorch, Python', 
+    link: 'https://share.streamlit.io/svensone/bali_dancestyle_cv/main/app.py' },
     { id: '12', src: full06, thumbnail: thumb13, 
     caption: 'Tensorflow Computer Vision',
     description: 'Detection of Pneumonia caused by COVID, with Scikit-learn and TensorFlow', 
@@ -127,7 +128,6 @@ class HomeIndex extends React.Component {
                 <div id="main">
                     <section id="one">
                         <header className="major">
-
                         <h2>About me</h2>
                         </header>
                         <p> Hi, my name is Sven and I work as a <strong>Data Scientist</strong>. After my <strong>MBA</strong> in
@@ -151,15 +151,12 @@ class HomeIndex extends React.Component {
                         Helping others at a local <strong>orphanage</strong> or organizing beach-clean-up with ByeByePlasticBags Bali and all things sports-related
                         fill up my spare-time when I'm not coding.  
                         </p>
-
                         <ul className="actions">
                             <li><a href="https://www.linkedin.com/in/sven-ertel1/" target="_blank" className="button" > LinkedIn</a></li>
                         </ul>
                     </section>
-
                     <section id="two">
                         <h2>Recent Works</h2>
-
                         <Gallery images={DEFAULT_IMAGES.map(({ id, src, thumbnail, caption, description, link }) => ({
                             src,
                             thumbnail,
