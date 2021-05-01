@@ -39,11 +39,11 @@ const DEFAULT_IMAGES = [
     { id: '1', src: full01, thumbnail: thumb01, 
     caption: 'Bali Covid Data Dashboard - Plotly/Python', 
     description: 'Collecting daily COVID-data from official sources, Dashboard Visualization with Plotly-Dash App deployed on Heroku: Displaying Regency Data for Bali with interactive comparison with other countries and indonesia provinces- made with Plotly, Scrapy, Python, Pandas, ', link: 'https://bali-covid-app.herokuapp.com/'},
-    { id: '8', src: full08, thumbnail: thumb08, caption: 'Pytorch/fastai Comp. Vision Pneumonia detection',     description: 'Image Recognition on lung x-rays to detect pneumonia, accuracy 72% - pytorch/fastAI', link: 'https://share.streamlit.io/svensone/-fastai2-pneumonia-cv/app.py'},
     { id: '2', src: full07, thumbnail: thumb07, 
     caption: 'fastai Balinese-Dance-Styles Recognition, scraped and cleaned Image-Dataset', 
     description: 'ResNet34 CNN trained on balinese dance-style images (500 images), accuracy 86% - made with fastai/pytorch, Python', 
     link: 'https://share.streamlit.io/svensone/bali_dancestyle_cv/main/app.py' },
+    { id: '8', src: full08, thumbnail: thumb08, caption: 'Pytorch/fastai Comp. Vision Pneumonia detection',     description: 'Image Recognition on lung x-rays to detect pneumonia, accuracy 72% - pytorch/fastAI', link: 'https://share.streamlit.io/svensone/-fastai2-pneumonia-cv/app.py'},
     { id: '12', src: full06, thumbnail: thumb13, 
     caption: 'Tensorflow Computer Vision',
     description: 'Detection of Pneumonia caused by COVID, with Scikit-learn and TensorFlow', 
@@ -149,7 +149,8 @@ class HomeIndex extends React.Component {
                         The  <strong>ocean</strong> is my great passion. 
                         Sailing between Greece islands, apnoe diving on Gili Islands, Indonesia or surfing waves - I love to be in, around and close to the ocean.  
                         Helping others at a local <strong>orphanage</strong> or organizing beach-clean-up with ByeByePlasticBags Bali and all things sports-related
-                        fill up my spare-time when I'm not coding.  
+                        fill up my spare-time when I'm not coding.<br />
+                        And as my projects below show - I love <strong>Bali</strong>
                         </p>
                         <ul className="actions">
                             <li><a href="https://www.linkedin.com/in/sven-ertel1/" target="_blank" className="button" > LinkedIn</a></li>
