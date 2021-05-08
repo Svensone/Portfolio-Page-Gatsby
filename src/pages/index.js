@@ -20,6 +20,9 @@ import thumb10 from '../assets/images/thumbs/102.jpg'
 import thumb11 from '../assets/images/thumbs/103.jpg'
 import thumb12 from '../assets/images/thumbs/012.jpg'
 import thumb13 from '../assets/images/thumbs/013.jpg'
+import thumb14 from '../assets/images/thumbs/14.jpg'
+import thumb15 from '../assets/images/thumbs/15.jpg'
+
 
 import full01 from '../assets/images/fulls/04.jpg'
 import full02 from '../assets/images/fulls/02.jpg'
@@ -33,8 +36,6 @@ import full09 from '../assets/images/fulls/101.jpg'
 import full10 from '../assets/images/fulls/102.jpg'
 import full11 from '../assets/images/fulls/103.jpg'
 
-
-// 'https://share.streamlit.io/svensone/fastai2-bali-dance/main/app.py'
 const DEFAULT_IMAGES = [
     { id: '1', src: full01, thumbnail: thumb01, 
     caption: 'Bali Covid Data Dashboard - Plotly/Python', 
@@ -43,7 +44,21 @@ const DEFAULT_IMAGES = [
     caption: 'fastai Balinese-Dance-Styles Recognition, scraped and cleaned Image-Dataset', 
     description: 'ResNet34 CNN trained on balinese dance-style images (500 images), accuracy 86% - made with fastai/pytorch, Python', 
     link: 'https://share.streamlit.io/svensone/bali_dancestyle_cv/main/app.py' },
-    { id: '8', src: full08, thumbnail: thumb08, caption: 'Pytorch/fastai Comp. Vision Pneumonia detection',     description: 'Image Recognition on lung x-rays to detect pneumonia, accuracy 72% - pytorch/fastAI', link: 'https://share.streamlit.io/svensone/-fastai2-pneumonia-cv/app.py'},
+    { id: '8', src: full08, thumbnail: thumb08, 
+    caption: 'Pytorch/fastai Comp. Vision Pneumonia detection',
+    description: 'Image Recognition on lung x-rays to detect pneumonia, accuracy 72% - pytorch/fastAI', link: 'https://share.streamlit.io/svensone/-fastai2-pneumonia-cv/app.py'},
+    { id: '14', src: thumb14, thumbnail: thumb14, 
+    caption: 'Sales Performance Analysis', 
+    description: 'Statistical and Explorative Analysis of Financial Business Data with Predictions. Made with Tableau, Power Bi, FastAi-Pytorch and Python Plotly', 
+    link: 'https://sales-performance.herokuapp.com/'
+    },
+    { id: '4', src: full03, thumbnail: thumb03, caption: 'Space-X App', 
+    description: 'ReactJS-GraphQl App displaying all launches of Elon Musks Space-X', link: 'https://space-x-app-sven.herokuapp.com/launch/1'},
+    { id: '15', src: thumb15, thumbnail: thumb15, 
+    caption: 'Tableau Visualizations', 
+    description: 'Explore all my public Tableau Projects ', 
+    link: 'https://public.tableau.com/profile/svenson.e#!/'
+    },
     { id: '12', src: full06, thumbnail: thumb13, 
     caption: 'Tensorflow Computer Vision',
     description: 'Detection of Pneumonia caused by COVID, with Scikit-learn and TensorFlow', 
@@ -61,8 +76,6 @@ const DEFAULT_IMAGES = [
     description: 'next project coming soon', link: ''},
     { id: '3', src: full02, thumbnail: thumb02, caption: 'Various Data Visualization', 
     description: 'classic EDA of DNA Data, AI Image recognition, and Stock Data Visualization- made with Python, seaborn, pandas, yfinance', link: 'http://b3eb0f5587b2.ngrok.io/'},
-    { id: '4', src: full03, thumbnail: thumb03, caption: 'Space-X App', 
-    description: 'ReactJS-GraphQl App displaying all launches of Elon Musks Space-X', link: 'https://space-x-app-sven.herokuapp.com/launch/1'},
     { id: '5', src: full04, thumbnail: thumb04, caption: 'Data Visualization with Javascript and D3', 
     description: 'Animated visualization of US GDP - REST API, Javascript, D3', link: 'https://datavisualization-with-d3.herokuapp.com/index.html'},
     { id: '6', src: full05, thumbnail: thumb05, caption: 'Simple Classic Html Homepage', 
@@ -148,9 +161,9 @@ class HomeIndex extends React.Component {
                         <p>
                         The  <strong>ocean</strong> is my great passion. 
                         Sailing between Greece islands, apnoe diving on Gili Islands, Indonesia or surfing waves - I love to be in, around and close to the ocean.  
-                        Helping others at a local <strong>orphanage</strong> or organizing beach-clean-up with ByeByePlasticBags Bali and all things sports-related
+                        Helping others at a local <strong>orphanage</strong> or organizing beach clean-up with ByeByePlasticBags Bali and all things sports-related
                         fill up my spare-time when I'm not coding.<br />
-                        And as my projects below show - I love <strong>Bali</strong>
+                        And as my projects below show - I love <strong>Bali and Indonesia</strong> and it became my second home.
                         </p>
                         <ul className="actions">
                             <li><a href="https://www.linkedin.com/in/sven-ertel1/" target="_blank" className="button" > LinkedIn</a></li>
