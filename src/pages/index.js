@@ -81,7 +81,7 @@ const DEFAULT_IMAGES = [
     description: 'Animated visualization of US GDP - REST API, Javascript, D3', link: 'https://datavisualization-with-d3.herokuapp.com/index.html'},
     { id: '6', src: full05, thumbnail: thumb05, caption: 'Simple Classic Html Homepage', 
     description: 'made with Bootstrap, Html, Sass & some JS Animations', link: 'https://svensone.github.io/'},
-    { id: '7', src: full06, thumbnail: thumb06, caption: 'Welcome to Bali', 
+    { id: '7', src: full06, thumbnail: thumb06, caption: 'Welcome to Bali - the Project', 
     description: 'HTML / CSS / JS Site with anime.js and other animations', link: 'https://svenson-bali-homepage.netlify.com/'},
 ];
 
